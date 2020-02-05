@@ -1,35 +1,21 @@
 {
-  "name": "newsroom",
-  "version": "0.1.0",
+  "name": "backend",
+  "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "antd": "^3.23.5",
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
-    "react-redux": "^7.1.1",
-    "react-router-dom": "^5.1.1",
-    "react-scripts": "3.1.2",
-    "redux": "^4.0.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node ./bin/www"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.7.3",
+    "morgan": "~1.9.0",
+    "uid2": "0.0.3"
   }
 }
